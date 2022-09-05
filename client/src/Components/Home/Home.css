@@ -1,0 +1,56 @@
+.home-container {
+  display: flex;
+  background-color: rgb(115, 192, 255);
+  height: 400px;
+  width: 60%;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+.home-title {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.home-userlist {
+  display: flex;
+  flex-direction: column;
+}
+.home-user {
+  margin: 8px;
+  background-color: rgb(255, 255, 255);
+  padding: 0.5rem;
+  border-radius: 12px;
+  width: 200px;
+}
+.home-role {
+  margin-top: 8px;
+  font-size: 1.25rem;
+}
+
+.user-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.delete-user {
+  cursor: pointer;
+  font-size: 1rem;
+  background-color: rgb(240, 34, 96);
+  padding: 8px 24px;
+  border-radius: 12px;
+  color: white;
+}
+.delete-user:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  text-decoration: line-through;
+}
+.navbar {
+  display: flex;
+}
+.errorMsg {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+}
